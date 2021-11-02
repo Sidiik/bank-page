@@ -1,0 +1,26 @@
+.heroTitle {
+  font-weight: 1000;
+  font-size: 94px;
+}
+.info {
+  margin-top: 5rem;
+}
+.heroImg {
+  flex-basis: 50%;
+}
+.heroImg .img {
+  width: 100%;
+}
+.details {
+  margin-top: 2rem;
+}
+.getcard {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 2rem;
+}
+.getcard p {
+  margin-top: 0.9rem;
+  margin-left: 0.7rem;
+}

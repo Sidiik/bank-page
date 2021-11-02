@@ -1,0 +1,9 @@
+.header {
+  font-weight: 1000;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
