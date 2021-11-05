@@ -1,18 +1,22 @@
 import React from "react";
 import Blue from "../Components/BlueSection/Blue";
 import Deals from "../Components/Deals section/Deals";
+import Handoff from "../Components/HandOff section/Handoff";
 import Header from "../Components/Header/Header";
 import Hero from "../Components/Hero section/Hero";
 import Infos from "../Components/Our info/Infos";
+import ScrollToTop from "../Components/ScrollTop/ScrollToTop";
 
 const Homepage = () => {
   return (
     <div>
+      <ScrollToTop />
       <Header />
       <Hero />
       <Deals />
       <Blue />
       <Infos />
+      <Handoff />
     </div>
   );
 };

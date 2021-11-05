@@ -1,6 +1,7 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import styles from "./hero.module.css";
+import heroImg from "../../assets/zeller.png";
 
 const Hero = () => {
   return (
@@ -44,10 +45,7 @@ const Hero = () => {
           </div>
         </div>
         <div className={styles.heroImg}>
-          <img
-            src="https://www.myzeller.com/hubfs/products%20-%20v1/zeller-mastercard-2104-bw-tips-v3.jpg"
-            className={styles.img}
-          />
+          <img src={heroImg} className={styles.img} />
         </div>
       </div>
     </>

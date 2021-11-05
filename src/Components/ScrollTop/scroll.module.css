@@ -1,0 +1,18 @@
+.container {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 0, 43);
+  padding: 1rem;
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+.container:hover {
+  background-color: rgb(255, 0, 43);
+  color: white;
+}
+.container svg:hover {
+  color: white;
+}

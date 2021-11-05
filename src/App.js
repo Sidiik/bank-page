@@ -3,7 +3,7 @@ import Homepage from "./Pages/Homepage";
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="container-fluid" style={{ width: "88%", margin: "auto" }}>
       <Homepage />
     </div>
   );
