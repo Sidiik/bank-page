@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito+Sans&family=Open+Sans&display=swap");
+
+.header {
+  background-color: white;
+  margin-top: 0.6rem;
+  padding: 0.3rem;
+  z-index: 999;
+}
+.logo h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.link {
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  font-weight: 700;
+}
+.link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 2;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 0%;
+  position: absolute;
+  background: #f83e48;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  border-radius: 0.4rem;
+}
+.link:hover:after {
+  width: 100%;
+}

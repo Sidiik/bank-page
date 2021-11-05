@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito+Sans&family=Open+Sans&display=swap");
+
+.wrapper {
+  padding: 3rem;
+  margin-top: 4rem;
+}
+.title h1 {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 1000;
+
+  /* font-family: "Dancing Script", cursive; */
+}
+.title p {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 2rem;
+}
+.qinfo {
+  border: 1px solid rgb(187, 187, 187);
+  display: flex;
+  justify-content: space-around;
+  padding: 3.5rem;
+  border-radius: 0.4rem;
+}
+.qinfo h5,
+.qinfo h2 {
+  text-align: center;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import ReactTypingEffect from "react-typing-effect";
 import styles from "./hero.module.css";
 
 const Hero = () => {
@@ -6,9 +7,17 @@ const Hero = () => {
     <>
       <div className="container-fluid mt-4 d-flex justify-content-between">
         <div className={styles.info}>
-          <h1 className={styles.heroTitle}>
-            Banking <br /> more smart
-          </h1>
+          <h2 className={styles.heroTitle}>
+            Banking <br /> made{" "}
+            <span className="text-danger">
+              <ReactTypingEffect
+                typingDelay={200}
+                eraseSpeed={50}
+                speed={50}
+                text={["simple.", "modern.", "easy.", "for you."]}
+              />
+            </span>
+          </h2>
           <div className={styles.details}>
             <h5 className="text-muted w-50">
               Meet the only management platform and corporate your card.

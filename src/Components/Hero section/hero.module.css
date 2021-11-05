@@ -1,6 +1,6 @@
 .heroTitle {
   font-weight: 1000;
-  font-size: 94px;
+  font-size: 87px;
 }
 .info {
   margin-top: 5rem;
@@ -19,8 +19,12 @@
   justify-content: start;
   align-items: center;
   margin-top: 2rem;
+  cursor: pointer;
 }
 .getcard p {
   margin-top: 0.9rem;
   margin-left: 0.7rem;
+}
+.String {
+  display: none;
 }
