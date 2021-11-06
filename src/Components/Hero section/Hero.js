@@ -32,7 +32,7 @@ const Hero = () => {
                 width="20"
                 height="20"
                 fill="white"
-                class="bi bi-arrow-right"
+                className="bi bi-arrow-right"
                 viewBox="0 0 16 16"
               >
                 <path
