@@ -14,3 +14,11 @@
   padding: 0.6rem;
   margin-top: 2rem;
 }
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .h1 {
+    font-size: 31px;
+  }
+}

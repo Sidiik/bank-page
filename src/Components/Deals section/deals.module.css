@@ -8,3 +8,14 @@
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
+
+@media (max-width: 760px) {
+  .wrapper {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .dealItem {
+    flex-basis: 100%;
+    margin-top: 0.8rem;
+  }
+}

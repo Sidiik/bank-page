@@ -6,7 +6,7 @@ import heroImg from "../../assets/zeller.png";
 const Hero = () => {
   return (
     <>
-      <div className="container-fluid mt-4 d-flex justify-content-between">
+      <div className={styles.wrapper}>
         <div className={styles.info}>
           <h2 data-aos="fade-right" className={styles.heroTitle}>
             Banking <br /> made{" "}
@@ -20,7 +20,7 @@ const Hero = () => {
             </span>
           </h2>
           <div data-aos="fade-up" className={styles.details}>
-            <h5 className="text-muted w-50">
+            <h5 className="text-muted ">
               Meet the only management platform and corporate your card.
             </h5>
           </div>

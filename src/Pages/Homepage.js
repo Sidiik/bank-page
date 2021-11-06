@@ -17,8 +17,7 @@ const Homepage = () => {
   }, []);
 
   return (
-    <div>
-      <ScrollToTop />
+    <div className="container">
       <Header />
       <Hero />
       <Deals />
@@ -26,6 +25,7 @@ const Homepage = () => {
       <Infos />
       <Handoff />
       <Subscribe />
+      {/*  <ScrollToTop /> */}
     </div>
   );
 };

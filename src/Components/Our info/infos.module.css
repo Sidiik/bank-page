@@ -28,3 +28,34 @@
 .qinfo h2 {
   text-align: center;
 }
+
+@media (max-width: 760px) {
+  .wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .title {
+    padding: 0;
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 34px;
+  }
+  .title p {
+    text-align: justify;
+    width: 100%;
+  }
+  .qinfo {
+    flex-wrap: wrap;
+    padding: 0;
+    padding: 0.3rem;
+  }
+  .products,
+  .likes,
+  .sale,
+  .customers {
+    flex-basis: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+}

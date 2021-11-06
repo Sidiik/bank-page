@@ -28,3 +28,26 @@
 .String {
   display: none;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 760px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .info {
+    flex-basis: 100%;
+    margin-top: 2rem;
+  }
+  .info h2 {
+    font-size: 38px;
+  }
+  .info h5 {
+    font-size: 14px;
+    text-align: justify;
+  }
+}

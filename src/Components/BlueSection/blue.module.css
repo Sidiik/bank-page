@@ -7,3 +7,17 @@
 .blueish h3 {
   font-weight: 800;
 }
+
+@media (max-width: 760px) {
+  .blueish {
+    padding: 2rem;
+  }
+  .blueishDiv {
+    flex-wrap: wrap;
+  }
+  .blueishDiv .right,
+  .left {
+    flex-basis: 100%;
+    padding: 0;
+  }
+}

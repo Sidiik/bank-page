@@ -33,13 +33,13 @@ const ScrollToTop = () => {
     </svg>
   );
   return (
-    <>
+    <div className="container">
       {isVisible && (
         <div data-aos="fade-up" className={styles.container} onClick={scrollUp}>
           <div className={styles.svg}>{arrow}</div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 

@@ -4,7 +4,7 @@ import styles from "./blue.module.css";
 const Blue = () => {
   return (
     <div className={styles.blueish}>
-      <div className="container-fluid mt-6 d-flex justify-content-around">
+      <div className={`${styles.blueishDiv} container-fluid mt-6 d-flex justify-content-around`}>
         <div data-aos="fade-left" className={styles.left}>
           <h3>
             We are Building <br /> Beyond the propability

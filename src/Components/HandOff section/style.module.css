@@ -1,0 +1,19 @@
+@media (max-width: 760px) {
+  .wrapper {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .wrapper p {
+    text-align: justify;
+  }
+  .handImg {
+    margin: 1rem 0;
+  }
+  .text {
+    margin-top: 1rem;
+  }
+  .wrapper svg {
+    position: relative;
+    left: -1em;
+  }
+}

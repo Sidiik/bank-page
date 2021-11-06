@@ -11,7 +11,7 @@ const Subscribe = () => {
         </div>
         <div className="col-md-10 row">
           <div className="col-md-6">
-            <h1 style={{ fontSize: "54px" }}>
+            <h1 className={styles.h1}>
               Subscribe <br /> our newsletter
             </h1>
             <div>
@@ -22,9 +22,7 @@ const Subscribe = () => {
           </div>
         </div>
       </div>
-      <div data-aos="flip-left" className="col-md-4">
-        <img src={CardHolder} style={{ width: "100%" }} alt="" />
-      </div>
+      <div data-aos="flip-left" className="col-md-4"></div>
     </div>
   );
 };

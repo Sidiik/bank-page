@@ -61,23 +61,23 @@ const Deals = () => {
   );
   return (
     <div data-aos="fade-up" className={`container-fluid  ${styles.wrapper}`}>
-      <div className="">
+      <div className={styles.dealItem}>
         <h5 className={styles.header}>
           Hot {hot} <br /> deals for you
         </h5>
         <p>Online shopping for retail sales direct to costumers</p>
       </div>
-      <div className="">
+      <div className={styles.dealItem}>
         {cash}
         <h5 className={` mt-4 ${styles.header}`}>1.5% cashback</h5>
         <p>Online shopping for retail sales direct to costumers</p>
       </div>
-      <div className="">
+      <div className={styles.dealItem}>
         {calendar}
         <h5 className={` mt-4 ${styles.header}`}>30 - day terms</h5>
         <p>Online shopping for retail sales direct to costumers</p>
       </div>
-      <div className="">
+      <div className={styles.dealItem}>
         {money}
         <h5 className={` mt-4 ${styles.header}`}>Save money</h5>
         <p>Online shopping for retail sales direct to costumers</p>
