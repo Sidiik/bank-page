@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <div className="container-fluid mt-4 d-flex justify-content-between">
         <div className={styles.info}>
-          <h2 className={styles.heroTitle}>
+          <h2 data-aos="fade-right" className={styles.heroTitle}>
             Banking <br /> made{" "}
             <span className="text-danger">
               <ReactTypingEffect
@@ -19,7 +19,7 @@ const Hero = () => {
               />
             </span>
           </h2>
-          <div className={styles.details}>
+          <div data-aos="fade-up" className={styles.details}>
             <h5 className="text-muted w-50">
               Meet the only management platform and corporate your card.
             </h5>
@@ -44,7 +44,7 @@ const Hero = () => {
             <p>Get your card now.</p>
           </div>
         </div>
-        <div className={styles.heroImg}>
+        <div data-aos="fade-left" className={styles.heroImg}>
           <img src={heroImg} className={styles.img} />
         </div>
       </div>

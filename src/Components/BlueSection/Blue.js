@@ -5,7 +5,7 @@ const Blue = () => {
   return (
     <div className={styles.blueish}>
       <div className="container-fluid mt-6 d-flex justify-content-around">
-        <div className={styles.left}>
+        <div data-aos="fade-left" className={styles.left}>
           <h3>
             We are Building <br /> Beyond the propability
           </h3>
@@ -13,7 +13,7 @@ const Blue = () => {
             The marketing strategy lays out target markets and the value
           </p>
         </div>
-        <div className={styles.right}>
+        <div data-aos="fade-right" className={styles.right}>
           <h3>
             Social media <br /> Social uniqueness
           </h3>

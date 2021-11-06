@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./deals.module.css";
 
+
 const Deals = () => {
+  
+
   const calendar = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +63,7 @@ const Deals = () => {
     </svg>
   );
   return (
-    <div className={`container-fluid  ${styles.wrapper}`}>
+    <div data-aos="fade-up" className={`container-fluid  ${styles.wrapper}`}>
       <div className="">
         <h5 className={styles.header}>
           Hot {hot} <br /> deals for you

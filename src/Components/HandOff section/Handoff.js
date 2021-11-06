@@ -32,15 +32,18 @@ const Handoff = () => {
   );
 
   return (
-    <div className="d-flex justify-content-around align-items-start p-4">
-      <div className="prese">
+    <div
+      data-aos="fade-up"
+      className="d-flex justify-content-around align-items-start p-4"
+    >
+      <div data-aos="fade-right" style={{ flexBasis: "45%" }} className="prese">
         <img
-          style={{ borderRadius: 3 }}
+          style={{ borderRadius: 3, width: "100%" }}
           src="https://images.unsplash.com/photo-1573496267765-9254e55d9384?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dWl8ZW58MHx8MHx3aGl0ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
       </div>
-      <div>
+      <div data-aos="fade-left">
         <h1 style={{ fontWeight: 900, paddingBottom: ".4rem" }}>
           Handoff your work <br /> smarter now
         </h1>

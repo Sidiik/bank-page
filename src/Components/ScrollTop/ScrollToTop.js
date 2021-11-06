@@ -23,8 +23,8 @@ const ScrollToTop = () => {
   const arrow = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="30"
-      height="30"
+      width="25"
+      height="18"
       fill="currentColor"
       class="bi bi-caret-up-fill"
       viewBox="0 0 16 16"
@@ -35,7 +35,7 @@ const ScrollToTop = () => {
   return (
     <>
       {isVisible && (
-        <div className={styles.container} onClick={scrollUp}>
+        <div data-aos="fade-up" className={styles.container} onClick={scrollUp}>
           <div className={styles.svg}>{arrow}</div>
         </div>
       )}
